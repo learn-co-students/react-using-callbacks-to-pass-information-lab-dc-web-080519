@@ -7,6 +7,14 @@ export default class Matrix extends Component {
 
   constructor() {
     super()
+    this.state = {
+      color: '#fff'
+    }
+  }
+
+  clickHandler = (color) => {
+    console.log(color)
+    // debugger
   }
 
   genRow = (vals) => (
@@ -21,7 +29,7 @@ export default class Matrix extends Component {
   render() {
     return (
       <div id="app">
-        <ColorSelector />
+        <ColorSelector colorClicker={this.clickHandler} />
         <div id="matrix">
           {this.genMatrix()}
         </div>
