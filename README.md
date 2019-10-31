@@ -10,9 +10,7 @@
 Go ahead and open this lab using `npm start` (you might need to do `npm install`) first. You should see our friend, [ChromeBoi][legend]. We are going to build an application that allows the user to select any of the 9 colored squares at the top of the page by clicking on it.
 Then, the user can click on any of the cells that make up our ChromeBoi image to change the background color to the color that they last selected. The end result is that the user will be able to 'paint' over ChromeBoi.
 
-<p align="center">
-  <img src="https://i1.wp.com/programmingwithmosh.com/wp-content/uploads/2018/10/Screen-Shot-2018-10-31-at-1.44.28-PM.png" />
-</p>
+![Diagram](https://i1.wp.com/programmingwithmosh.com/wp-content/uploads/2018/10/Screen-Shot-2018-10-31-at-1.44.28-PM.png)
 
 
 For this lab, we have three components:
